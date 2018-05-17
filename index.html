@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <header class="bg-primary text-white p-4 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Todo App</h1>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <input id="search" class="form-control" type="text" placeholder="search items...">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card card-body">
+            <h2 class="title">Add Items</h2>
+            <form id="addForm" class="form-inline mb-3">
+                <input id="item" type="text" class="form-control mr-2" placeholder="write here...">
+                <input type="submit" value="Submit" class="btn btn-outline-dark">
+            </form>
+            <h2 class="title">Items</h2>
+            <ul id="items" class="list-group">
+            </ul>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
