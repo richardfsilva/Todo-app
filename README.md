@@ -1,3 +1,3 @@
-#MyTodoApp
+# MyTodoApp
 
-This is my todo app
+ - This is my todo app
